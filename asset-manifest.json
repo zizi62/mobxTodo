@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mobxTodo/static/css/main.ea632063.chunk.css",
-    "main.js": "/mobxTodo/static/js/main.a4195d1c.chunk.js",
-    "main.js.map": "/mobxTodo/static/js/main.a4195d1c.chunk.js.map",
+    "main.js": "/mobxTodo/static/js/main.0b63abf0.chunk.js",
+    "main.js.map": "/mobxTodo/static/js/main.0b63abf0.chunk.js.map",
     "runtime-main.js": "/mobxTodo/static/js/runtime-main.304ca9f8.js",
     "runtime-main.js.map": "/mobxTodo/static/js/runtime-main.304ca9f8.js.map",
     "static/js/2.fc80247a.chunk.js": "/mobxTodo/static/js/2.fc80247a.chunk.js",
     "static/js/2.fc80247a.chunk.js.map": "/mobxTodo/static/js/2.fc80247a.chunk.js.map",
     "index.html": "/mobxTodo/index.html",
-    "precache-manifest.67980da4dd5613909ef5061fa4dee0e9.js": "/mobxTodo/precache-manifest.67980da4dd5613909ef5061fa4dee0e9.js",
+    "precache-manifest.0dae786cc1beffdc302d1f3c9bfa4144.js": "/mobxTodo/precache-manifest.0dae786cc1beffdc302d1f3c9bfa4144.js",
     "service-worker.js": "/mobxTodo/service-worker.js",
     "static/css/main.ea632063.chunk.css.map": "/mobxTodo/static/css/main.ea632063.chunk.css.map",
     "static/js/2.fc80247a.chunk.js.LICENSE.txt": "/mobxTodo/static/js/2.fc80247a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.304ca9f8.js",
     "static/js/2.fc80247a.chunk.js",
     "static/css/main.ea632063.chunk.css",
-    "static/js/main.a4195d1c.chunk.js"
+    "static/js/main.0b63abf0.chunk.js"
   ]
 }
