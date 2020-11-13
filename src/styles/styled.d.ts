@@ -9,6 +9,7 @@ declare module 'styled-components' {
       secondary: string
       error: string
       paper: string
+      text1: string
       white: string
     }
   }

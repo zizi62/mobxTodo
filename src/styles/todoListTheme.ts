@@ -7,7 +7,8 @@ const todoListTheme: DefaultTheme = {
     secondary: 'Gainsboro',
     error: 'Red',
     paper: 'WhiteSmoke',
-    white: 'White'
+    white: 'White',
+    text1: 'DarkSlateGrey'
   },
 }
 

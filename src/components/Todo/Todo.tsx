@@ -4,9 +4,10 @@ import styled from 'styled-components'
 import CheckBox from '../CheckBox/CheckBox'
 
 const Title = styled.p<{ isDone: boolean }>`
-font-size: 14px;
+font-size: 16px;
 margin: 0;
-text-decoration: ${props => (props.isDone ? 'line-through' : 'none')} ;
+text-decoration: ${props => (props.isDone ? 'line-through' : 'none')} 
+color: ${props => props.theme.colors.text1};
 `
 
 const Wrapper = styled.div`
