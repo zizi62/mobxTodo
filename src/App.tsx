@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TodoList from './components/TodoList/TodoList';
+import { Provider, rootStore } from './mst/models';
+import styled, { ThemeProvider } from 'styled-components'
+import { todoListTheme } from './styles/todoListTheme';
+
+const Wrapper = styled.div`
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: start;
+padding: 60px;
+background: #DCDCDC;
+`
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Provider value={rootStore}>
+       <ThemeProvider theme={todoListTheme}>
+    <Wrapper>
+      <TodoList />
+      
+    </Wrapper>
+    </ThemeProvider>
+    </Provider>
   );
 }
 
